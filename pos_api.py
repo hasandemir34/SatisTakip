@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/api/satis-yap', methods=['GET'])
 def satis():
-    urunler = ["Filtre Kahve", "Latte", "Cay", "Simit", "Kek"]
+    urunler = ["Filtre Kahve", "Latte", "Cay", "Simit", "Kek","Sütlaç"]
     secilen = random.choice(urunler)
     
     veri = {
